@@ -16,4 +16,4 @@ jobs:
     steps:
     - name: clean all temp image
       run: docker image prune --force
-    needs: [document]
+    needs: [deploy]
