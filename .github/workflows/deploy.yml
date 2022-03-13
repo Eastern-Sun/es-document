@@ -1,0 +1,19 @@
+name: deploy-doc
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  document:
+    runs-on: runner-test-63
+    steps:
+    - uses: actions/checkout@v2
+    - name: docker-compose up
+      run: docker-compose -f docker-compose.yml up -d --build
+  clear:
+    runs-on: runner-test-63
+    steps:
+    - name: clean all temp image
+      run: docker image prune --force
+    needs: [document]
