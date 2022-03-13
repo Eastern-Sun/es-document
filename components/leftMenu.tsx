@@ -6,10 +6,11 @@ function Layout() {
             <div className="position-sticky pt-3">
                 <ul className="nav flex-column">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page">
-                            <span data-feather="home"></span>
-                            Trang chủ
-                        </a>
+                        <Link href="/">
+                            <a className="nav-link">
+                                Trang chủ
+                            </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <Link href="/sso">
