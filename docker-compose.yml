@@ -8,10 +8,10 @@ services:
     environment:
       - TZ=Asia/Ho_Chi_Minh
     ports:
-      - "7000:80"
+      - "7000:3000"
     restart: always
     networks:
-      - esplfhaproxy-network
+      - esplfdoc-network
     logging:
       driver: "json-file"
       options:
@@ -19,6 +19,6 @@ services:
         max-file: "1"
 
 networks:
-  esplfhaproxy-network:
+  esplfdoc-network:
     external:
       name: esplf-network
