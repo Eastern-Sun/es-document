@@ -5,7 +5,7 @@ on:
     - main
 
 jobs:
-  document:
+  deploy:
     runs-on: runner-test-63
     steps:
     - uses: actions/checkout@v2
