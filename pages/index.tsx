@@ -14,7 +14,7 @@ const Home: NextPage = () => {
               className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
               <h1 className="h2">Trang chủ</h1>
             </div>
-            <h4>Nội dung tài liệu, hoặc trang giới thiệu</h4>
+            <h4>Nội dung tài liệu, hoặc trang giới thiệu </h4>
             <div className="bd-content ps-lg-4">
               <h2 id="team">Team<a className="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#team"></a></h2>
               <p>Bootstrap is maintained by a <a href="https://github.com/orgs/twbs/people">small team of developers</a> on GitHub. We’re actively looking to grow this team and would love to hear from you if you’re excited about CSS at scale, writing and maintaining vanilla JavaScript plugins, and improving build tooling processes for frontend code.</p>
