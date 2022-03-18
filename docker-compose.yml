@@ -20,5 +20,6 @@ services:
 
 networks:
   esplfdoc-network:
-    external:
-      name: esplf-network
+    name: qipf-network
+    driver: bridge
+    
