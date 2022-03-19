@@ -12,7 +12,7 @@ const Home: NextPage = () => {
           <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <div
               className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-              <h1 className="h2">Trang chủ</h1>
+              <h1 className="h2">Trang chủ viéte hướng dẫn</h1>
             </div>
             <h4>Nội dung tài liệu, hoặc trang giới thiệu </h4>
             <div className="bd-content ps-lg-4">
