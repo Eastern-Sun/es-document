@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  es_document:
+  espfdocument:
     build:
       context: src
     environment:
