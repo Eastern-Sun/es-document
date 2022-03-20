@@ -3,15 +3,14 @@ version: '3.4'
 services:
   es_document:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: src
     environment:
       - TZ=Asia/Ho_Chi_Minh
     ports:
       - "7000:3000"
     restart: always
     networks:
-      - esplfdoc-network
+      - espfdoc-network
     logging:
       driver: "json-file"
       options:
@@ -19,7 +18,7 @@ services:
         max-file: "1"
 
 networks:
-  esplfdoc-network:
+  espfdoc-network:
     external:
-      name: esplf-network 
+      name: espf-network 
     

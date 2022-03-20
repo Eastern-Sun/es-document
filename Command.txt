@@ -1,0 +1,16 @@
+﻿- Cài đặt yarn cho project nextjs
+ yarn add next@latest
+
+- Để trình biên dịch không yêu cầu kiểu cho trình biên dịch tsconfig.json
+ "noImplicitAny": false
+
+- Để run trên docker cần có cấu hình sau ở file next.config.json
+  module.exports = {
+  experimental: {
+      outputStandalone: true,
+    },
+  }
+
+- Để cài package an toàn cần chạy
+  yarn add cookies
+  npm i --save-dev @types/cookies
