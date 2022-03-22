@@ -13,4 +13,4 @@
 
 - Để cài package an toàn cần chạy
   yarn add cookies
-  npm i --save-dev @types/cookies
+  npm i --save-dev @types/cookies 
